@@ -28,4 +28,6 @@ export default async function handler(req, res) {
     return res.status(500).json({ error: 'Error al enviar el mensaje', details: error.message });
   }
 }
+Crear endpoint /api/mensaje
+
 
