@@ -1,9 +1,0 @@
-{
-  "version": 2,
-  "builds": [
-    { "src": "api/enviar-mensaje.js", "use": "@vercel/node" }
-  ],
-  "routes": [
-    { "src": "/api/enviar-mensaje", "dest": "api/enviar-mensaje.js" }
-  ]
-}
